@@ -1,0 +1,19 @@
+{
+  "name": "teste",
+  "version": "0.0.0",
+  "authors": [
+    "Andre Alves Garzia <contato@andregarzia.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.2"
+  }
+}
