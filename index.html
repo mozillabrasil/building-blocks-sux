@@ -1,27 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- 1. Load platform support before any code that touches the DOM. -->
     <script src="lib/webcomponentsjs/webcomponents.min.js"></script>
-    <!-- 2. Load the component using an HTML Import -->
-<<<<<<< HEAD
-    <link rel="import" href="gaia-tab-bar/gaia-tab-bar.html">
-    <link rel="import" href="gaia-tab-bar-button/gaia-tab-bar-button.html">
-  </head>
-  <body>
-    <gaia-tab-bar>
-      <gaia-tab-bar-button elClass="classe" elId="id1" elLink="link1">Botao 1</gaia-tab-bar-button/>
-      <gaia-tab-bar-button elClass="classe2" elId="id2" elLink="link2">Botao 2</gaia-tab-bar-button/>
-      <gaia-tab-bar-button elClass="classe3" elId="id3" elLink="link3">Botao 3</gaia-tab-bar-button/>
-      <gaia-tab-bar-button elClass="classe4" elId="id4" elLink="link4">Botao 4</gaia-tab-bar-button/>
-    </gaia-tab-bar>
-=======
-      <link rel="stylesheet" href="util.css">
+    <link rel="stylesheet" href="util.css">
     <link rel="import" href="element/torto-lindo.html">
     <link rel="import" href="gaia-button/gaia-button.html">
     <link rel="import" href="gaia-layout/gaia-layout.html">
     <link rel="import" href="gaia-header/gaia-header.html">
-
+    <link rel="import" href="gaia-tab-bar/gaia-tab-bar.html">
+    <link rel="import" href="gaia-tab-bar-button/gaia-tab-bar-button.html">
   </head>
   <body>
     <!-- 3. Declare the element by its tag. -->
@@ -34,8 +21,12 @@
       </torto-lindo>
       <gaia-button id="botao">Teste</gaia-button>
       <gaia-button type="danger">Teste</gaia-button>
+      <gaia-tab-bar>
+        <gaia-tab-bar-button elClass="classe" elId="id1" elLink="link1">Botao 1</gaia-tab-bar-button/>
+        <gaia-tab-bar-button elClass="classe2" elId="id2" elLink="link2">Botao 2</gaia-tab-bar-button/>
+        <gaia-tab-bar-button elClass="classe3" elId="id3" elLink="link3">Botao 3</gaia-tab-bar-button/>
+        <gaia-tab-bar-button elClass="classe4" elId="id4" elLink="link4">Botao 4</gaia-tab-bar-button/>
+      </gaia-tab-bar>
   </gaia-layout>
-
->>>>>>> FETCH_HEAD
   </body>
 </html>
