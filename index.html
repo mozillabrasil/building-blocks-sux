@@ -9,6 +9,9 @@
     <link rel="import" href="gaia-header/gaia-header.html">
     <link rel="import" href="gaia-tab-bar/gaia-tab-bar.html">
     <link rel="import" href="gaia-tab-bar-button/gaia-tab-bar-button.html">
+    <link rel="import" href="gaia-toolbar/gaia-toolbar.html">
+    <link rel="import" href="gaia-toolbar-button/gaia-toolbar-button.html">
+    <link rel="import" href="gaia-status/gaia-status.html">
   </head>
   <body>
     <!-- 3. Declare the element by its tag. -->
@@ -21,6 +24,14 @@
       </torto-lindo>
       <gaia-button id="botao">Teste</gaia-button>
       <gaia-button type="danger">Teste</gaia-button>
+      <gaia-status>
+        <p>The Alarm is set for <strong>7 hours</strong> and <strong>14 minutes</strong> from now</p>
+      </gaia-status>
+      <gaia-toolbar>
+        <gaia-toolbar-button icon="delete"></gaia-toolbar-button>
+        <gaia-toolbar-button icon="flag"></gaia-toolbar-button>
+        <gaia-toolbar-button icon="email-mark-read"></gaia-toolbar-button>
+      </gaia-toolbar>
       <gaia-tab-bar>
         <gaia-tab-bar-button elClass="classe" elId="id1" elLink="link1">Botao 1</gaia-tab-bar-button/>
         <gaia-tab-bar-button elClass="classe2" elId="id2" elLink="link2">Botao 2</gaia-tab-bar-button/>
